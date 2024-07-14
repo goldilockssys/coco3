@@ -1,0 +1,56 @@
+.home-detail {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: white; /* 배경색을 흰색으로 설정 */
+  }
+  
+  .shipment-goals {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .shipment-trno {
+    color: gray;
+  }
+  
+  .shipment-progress {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .achieved-count {
+    font-size: 24px; /* Adjusted font size */
+    font-weight: bold;
+    color: orange;
+    margin-right: 10px;
+  }
+  
+  .achieved-status {
+    color: orange;
+  }
+  
+  .progress-circles {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .circle.achieved {
+    background-color: orange;
+    color: white;
+  }
+  

@@ -1,0 +1,12 @@
+.processing-detail {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer; /* 마우스를 올리면 클릭 가능한 커서로 변경 */
+  }
+  
+  .processing-detail:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 마우스를 올리면 살짝 그림자 추가 */
+  }
+  

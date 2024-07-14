@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/index.css 또는 공통 CSS 파일에 추가 */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.job-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+}

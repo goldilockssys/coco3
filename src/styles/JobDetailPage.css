@@ -1,0 +1,14 @@
+.job-detail {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.job-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.job-description {
+  font-size: 16px;
+  margin-top: 10px;
+}

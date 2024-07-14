@@ -1,0 +1,19 @@
+.new-job-detail {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: white; /* 배경색을 흰색으로 설정 */
+  }
+  
+  .tags {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .tag {
+    background-color: lightgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  

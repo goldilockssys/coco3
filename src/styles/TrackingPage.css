@@ -1,0 +1,176 @@
+.tracking-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.tracking-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.tracking-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 20px;
+}
+
+.address-section, .location-link-section, .order-section, .timeline-section {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  flex: 1;
+  margin: 10px 0;
+}
+
+.location-link-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location-link-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.location-link-input input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+.location-link-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.location-link-input input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.location-link-input button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.location-link-buttons {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.location-link-buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.location-link-buttons .share-button {
+  background-color: #28a745;
+}
+
+.location-link-buttons .unshare-button {
+  background-color: #dc3545;
+}
+
+.order-section {
+  flex: 1;
+}
+
+.timeline-section {
+  flex: 1;
+}
+
+.timeline-section p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.timeline-section .circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid orange;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.timeline-section .circle.achieved {
+  background-color: orange;
+  color: white;
+}
+
+.timeline-section button.make-done-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* 버튼 크기 조절 */
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .tracking-section {
+    flex-direction: column;
+  }
+
+  .address-section, .location-link-section, .order-section, .timeline-section {
+    margin: 10px 0;
+  }
+}
